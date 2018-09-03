@@ -1,7 +1,1167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="214594c1-edd2-4a77-bd32-9782f66e7ff4" name="Default Changelist" comment="" />
+    <list default="true" id="214594c1-edd2-4a77-bd32-9782f66e7ff4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Auth/SduGroupService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/BaseService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Bd/BdCargoService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Bd/BdDeAddrService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Bd/BdDepartService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Bd/BdEctService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Bd/BdEmpService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Bd/BdOilPriService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Bd/TrstTpService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/CarBackFieldService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/CarTypeService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/CarViolationService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/OilCardService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/OilCardUseService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/PartsInService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/PartsOutRecordService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/PartsOutService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/PortExpressService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/SparePartService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/SupplierRecordService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/TowCarService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/UnitollGDService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/UnitollGdUseService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Car/VehicleTypeService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Cus/CusCustomerService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Cus/CusRecContService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/DataGridView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Fm/FmBaseService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Fm/FmRoleService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Fm/FmUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Fm/SmBaseDtService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Per/PerAttrService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Pod/WmsPodTService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Sch/SchOrderService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Sch/SchRouteService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Sup/SupPayContService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Sup/SupSupplierService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/TMS.Bll.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/Test/TestService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Bll/timer/QuartzJobService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/Attachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdCargo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdCargoVes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdDeaddr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdDepartment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdEct.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdEctResVo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdEmp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdOilPri.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/BdTrstTy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarBackfield.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarOilcard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarOilcarduse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarPartsin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarPartsinlist.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarPartsout.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarPartsoutlist.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarPartsoutrecord.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarPortexpress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarSpareparts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarSupplierrecord.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarUnitollgd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarUnitollgduser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarVehicletype.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CarViolation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/ComboxData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CusCustomer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CusCustomerContact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CusRecContract.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/CusRecContractDt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/Enum/CarStateEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/FmMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/FmOperate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/FmRole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/FmRoleMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/FmRoleMenuOperate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/FmUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/HistoryTrack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/MapCarInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/MapCarMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/Menu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/PerAttr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/QuartzJob.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SchOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SchOrderCargo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SchOrderRoute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SchRoute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SchRouteLink.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SduGp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SduGpUserLink.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SmBaseDt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SmBaseDtResVo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SupPayContract.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SupPayContractDt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/SupSupplier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/TMS.Entity.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/TowCar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/WmsPodT.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Entity/util/CboItemEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Global.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/1.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/2.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/3.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/4.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/5.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/Map/mapicon_navi_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/Map/mapicon_navi_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/Map/marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/app.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/bar_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/bar_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/c_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/left_panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/login_form_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/right_panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/room_search_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/search_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/top_panel_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Image/xx_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Listener/FormListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/MultiLanguage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Auth/SduGroupForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdCargoForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDeAddrForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdDepartForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEctForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdEmpForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/BdOilPriForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Bd/TrstTpForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarBackFieldForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarTypeForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/CarViolationForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/OilCardUseForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsInForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PartsOutRecordForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/PortExpressForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SparePartForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/SupplierRecordForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/TowCarForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGDForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/UnitollGdUseForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Car/VehicleTypeForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/ImportForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/ImportForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/ImportForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/LoadingForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/LoadingForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/LoadingForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/UploadForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/UploadForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Common/UploadForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusContractAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusContractAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusContractAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusContractForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusContractForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusContractForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusCustomerForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderSendForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderSendForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusOrderSendForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddFormMinReceive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddFormReceive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddFormSend.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddFormTon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddFormVichicle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContAddFormVichicleRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailFormMinReceive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailFormReceive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailFormSend.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailFormTon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailFormVichicle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContDetailFormVichicleRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusRecContForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarMultiForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarMultiForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarMultiForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarSingleForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarSingleForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Cus/CusSendCarSingleForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/ContorlDemo.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/ContorlDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/ContorlDemo.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/Form3.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/Form3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/Form3.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/HomeForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/HomeForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/HomeForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/MapForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/MapForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/MapForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Demo/QuickLogin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/ChangePasswordForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/ChangePasswordForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/ChangePasswordForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmRoleForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserListForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserListForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserListForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserListForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/FmUserListForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/ListDemo.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/ListDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/ListDemo.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/OperatePermissionForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/OperatePermissionForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/OperatePermissionForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/RoleDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/RoleDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/RoleDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/RoleListForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/RoleListForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/RoleListForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/SmBaseDtForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/SmBaseDtForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/SmBaseDtForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/SmBaseDtForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Fm/SmBaseDtForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/LoginForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/LoginForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/LoginForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/LoginForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/LoginForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/MainForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/MainForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/MainForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Per/PerAttrForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Pod/WmsPodTForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderAddCargoForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderAddMasterForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderAddMasterForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderAddMasterForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderAddMasterForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderAddMasterForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderAddRouteForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderDetailMasterForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderDetailMasterForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderDetailMasterForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderDetailMasterForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderDetailMasterForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchOrderForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sch/SchRouteForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/SubBaseForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContAddMasterForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContAddMasterForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContAddMasterForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContAddMasterForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContAddMasterForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContDetailMasterForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContDetailMasterForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContDetailMasterForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContDetailMasterForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContDetailMasterForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupPayContForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierDetailForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierDetailForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierDetailForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierDetailForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierDetailForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Sup/SupSupplierForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/CarRepairExtAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/CarRepairExtAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/CarRepairExtAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreInAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreInAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreInAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreInForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreInForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreInForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreInForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreInForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreOutAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreOutAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreOutAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreOutForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreOutForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreOutForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreOutForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Car/PartsTyreOutForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarReceiptForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarReceiptForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarReceiptForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarReceiptSch.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarReceiptSch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarReceiptSch.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sch/SchSendCarReceiptSchForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/PerPayForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/PerPayForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/PerPayForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetPayCostFrom.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetPayCostFrom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetPayCostFrom.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetPayInfo.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetPayInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetPayInfo.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetRecBillAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetRecBillAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetRecBillAddForm.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetRecBillAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetRecBillAddForm.zh-CN.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetRecCostFrom.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetRecCostFrom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Set/SetRecCostFrom.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sup/SupPayContractAddForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sup/SupPayContractAddForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sup/SupPayContractAddForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sup/SupPayContractForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sup/SupPayContractForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/UI/Sup/SupPayContractForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarDayForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarDayForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarDayForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarLifeCycleForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarLifeCycleForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarLifeCycleForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarTimerForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarTimerForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Car/CarTimerForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CompanyCostForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CompanyCostForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CompanyCostForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CompanyGainLoss.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CompanyGainLoss.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CompanyGainLoss.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CustomerAgingTrendForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CustomerAgingTrendForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/CustomerAgingTrendForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/DepartmentGainLossForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/DepartmentGainLossForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/DepartmentGainLossForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Orders/DayOrderForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Orders/DayOrderForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Orders/DayOrderForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Orders/OrderSearchForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Orders/OrderSearchForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Orders/TimesOrderForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Orders/TimesOrderForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/Orders/TimesOrderForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectAgingForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectAgingForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectAgingForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectGainLoss.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectGainLoss.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectGainLoss.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectMonGainLossForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectMonGainLossForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/ProjectMonGainLossForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/TireUsedForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/TireUsedForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/TireUsedForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/VehicleUtilizationForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/VehicleUtilizationForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/Vis/VehicleUtilizationForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/CollectedForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/CollectedForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/CollectedForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/OrderSearchForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/OrderSearchForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/OrderSearchForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/ReportForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/ReportForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/TestForm1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/TestForm1.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/TestForm1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Pages/visual/reportForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Properties/licenses.licx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/AgendaView_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/AgendaView_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/BOProductGroup_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/BOProductGroup_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Buy_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Buy_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Card_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Card_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/CostAnalysis_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/CostAnalysis_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Customers_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Customers_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Driving_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Driving_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Employees_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Employees_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleFullCircular_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleFullCircular_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleHalfCircular_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleHalfCircular_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleLeftQuarterCircular_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleLeftQuarterCircular_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleLinearHorizontal_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleLinearHorizontal_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleLinearVertical_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleLinearVertical_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleRightQuarterCircular_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/GaugeStyleRightQuarterCircular_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Meeting_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Meeting_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Navigate_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Navigate_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/NewEmployee_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/NewEmployee_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/NewGroup_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/NewGroup_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/NewSales_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/NewSales_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Opportunities_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Opportunities_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Phone_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Phone_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Question_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Question_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/SalesAnalysis_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/SalesAnalysis_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/SalesPeriodLifetime_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/SalesPeriodLifetime_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/SalesPeriodMonth_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/SalesPeriodMonth_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/SalesPeriodYear_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/SalesPeriodYear_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Warning_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/Warning_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/add_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/bd_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/bd_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/boorderItem_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/boorderItem_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/converttorange_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/copy_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/customer_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/delete_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/dispatch_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/download_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/edit_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/exportfile_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/fee_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/fee_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/fm_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/fm_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/geoPointMap_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/geoPointMap_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/in_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/in_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/inner_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/menu_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/menu_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/out_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/out_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/person_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/print_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/refresh_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/refresh_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/report_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/report_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/reset_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/save_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/subMenu_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/subMenu_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/supplier_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/trash_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/trash_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/warn_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Resources/warn_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/System/GlobalizationDateTimeFormatInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/TMS.Front.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/TMS.Front.csproj.rej" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/ComBoxControl.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/ComBoxControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/ComBoxControl.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/ComValidationProvider.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/ComValidationProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/ComValidationProvider.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/JhComBoBox.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/JhComBoBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/JhComBoBox.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/LocalizationCHS.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/MessageDialog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCarType.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCarType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCarType.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCargo.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCargo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCargo.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCustomer.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCustomer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupCustomer.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupDeAddr.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupDeAddr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupDeAddr.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupDepart.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupDepart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupDepart.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupEmployee.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupEmployee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupEmployee.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSchRoute.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSchRoute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSchRoute.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSduGroup.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSduGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSduGroup.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSparePart.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSparePart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSparePart.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSupplier.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSupplier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupSupplier.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupTowCar.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupTowCar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupTowCar.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupTrstTp.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupTrstTp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupTrstTp.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupUser.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Popup/UcPopupUser.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferBase.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferBase.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCarType.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCarType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCarType.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCargo.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCargo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCargo.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCustomer.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCustomer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferCustomer.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferDeAddr.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferDeAddr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferDeAddr.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferDepart.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferDepart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferDepart.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferEmployee.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferEmployee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferEmployee.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSchRoute.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSchRoute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSchRoute.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSduGroup.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSduGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSduGroup.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSupplier.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSupplier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferSupplier.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferTowCar.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferTowCar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferTowCar.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferTrstTp.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferTrstTp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferTrstTp.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferUser.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/Refer/ReferUser.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcActionBar.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcActionBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcActionBar.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcActionBar.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDateRange.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDateRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDateRange.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDetailEditBar.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDetailEditBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDetailEditBar.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDetailInfo.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDetailInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcDetailInfo.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcEditBar.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcEditBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcEditBar.en-US.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcEditBar.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcGridControl.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcGridControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcGridControl.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcPager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcPager.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcPager.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcPopupMenu.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcPopupMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcPopupMenu.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcRefer.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcRefer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcRefer.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcSearchBar.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcSearchBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcSearchBar.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcUploadFile.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcUploadFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/Widget/UcUploadFile.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/app.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/AMap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/BaiduMap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Data/国脉畅行行车轨迹粤BDK582.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Data/国脉畅行行车轨迹粤BED977.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Data/国脉畅行行车轨迹粤BFH559.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Data/国脉畅行行车轨迹粤BFK899.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Data/国脉畅行行车轨迹粤BM3329.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusContractForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusContractPieces.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusContractReceive.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusContractReceiveBase.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusContractSend.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusContractTon.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusContractVehicle.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusContractVehicleRange.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusOrder.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusOrderInventory.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusOrderLoad.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusOrderRoute.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusOrderSendForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusOrderUnload.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusSendCarFormRoute.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusSendCarInventory.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusSendCarInventoryOne.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusSendCarOrder.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/CusSendCarOrderOne.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsDeliveryAddForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsDeliveryForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsSupForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsTyreInAddForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsTyreInForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsTyreOutAddForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsTyreOutForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsUseAddForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsUseForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PartsUseRptForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/PerPayForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SchRouteForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SchSendCarForm_HWXX.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SchSendCarForm_RYXX.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SchSendCarForm_YSLX.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SchSendCarSch.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SupPayContractAdd_SHZL.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SupPayContractAdd_ZC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SupPayContractAdd_ZG.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SupPayContractAdd_ZHZL.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/bin/Debug/Excel/SupPayContractForm.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/lib/AccessDatabaseEngine.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/lib/CSkin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/lib/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/lib/System.Runtime.Serialization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/lib/microsoft.csharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TMS.Front/login.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_EN.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_EN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/ExcelUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/FileExtensionEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/FileUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/ListToTableHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/LocationHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/LogHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/MD5Utils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/ReflectionHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/TableToListHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/TypeConvert.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/XmlHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.Common/ZHQC.Common.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Form3.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Form3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Form3.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/MainForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/MainForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/MainForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Newtonsoft/Json.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/Properties/licenses.licx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/QuartzJobForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/QuartzJobForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/QuartzJobForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/ZHQC.GenerateUI.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.GenerateUI/service/PluginsService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.NetWork/FormItemModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.NetWork/HttpNetUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.NetWork/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.NetWork/ResultVo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.NetWork/Utils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC.NetWork/ZHQC.NetWork.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZHQC_TMS.sln" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +1177,8 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,7 +1189,7 @@
           <entry key="html" value="1" />
           <entry key="js" value="42" />
           <entry key="json" value="3" />
-          <entry key="md" value="1" />
+          <entry key="md" value="3" />
           <entry key="ts" value="5" />
           <entry key="vue" value="23" />
         </counts>
@@ -40,7 +1200,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="42" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="5" />
           <entry key="Vue.js" value="23" />
@@ -49,12 +1209,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="44" />
+          <entry key="md" value="2" />
           <entry key="vue" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="44" />
+          <entry key="Markdown" value="2" />
           <entry key="Vue.js" value="21" />
         </counts>
       </usages-collector>
@@ -80,7 +1242,7 @@
         <entry file="file://$PROJECT_DIR$/src/page/BaseForm.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="e#3332#5362#0" />
               </folding>
@@ -103,7 +1265,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3154">
+            <state relative-caret-position="1350">
               <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
             </state>
           </provider>
@@ -118,10 +1280,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="212">
               <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -131,9 +1293,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README_EN.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="930">
               <caret line="32" column="32" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -178,6 +1364,8 @@
         <option value="$PROJECT_DIR$/build/webpack.dev.conf.js" />
         <option value="$PROJECT_DIR$/src/components/common/Sidebar.vue" />
         <option value="$PROJECT_DIR$/src/page/BaseTable.vue" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/README_EN.md" />
       </list>
     </option>
   </component>
@@ -209,6 +1397,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,7 +1420,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,17 +1475,18 @@
       <workItem from="1535936678582" duration="3660000" />
       <workItem from="1535940359343" duration="148000" />
       <workItem from="1535940525374" duration="9537000" />
+      <workItem from="1535956269400" duration="159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16652000" />
+    <option name="totallyTimeSpent" value="16811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26624405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -455,25 +1644,10 @@
         <state relative-caret-position="-2790" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="743">
-            <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/theme-green/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret column="181212" selection-start-column="181212" selection-end-column="181212" />
-          <folding>
-            <element signature="e#161201#161340#2" expanded="true" />
-            <element signature="e#163623#163762#2" expanded="true" />
-            <element signature="e#167151#167290#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,9 +1669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#527#560#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,19 +1702,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="n#div#0;n#template#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/DragList.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
-          <folding>
-            <element signature="n#section#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1260" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
@@ -564,21 +1728,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <element signature="e#1662#2052#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/Sidebar.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -590,7 +1744,7 @@
     <entry file="file://$PROJECT_DIR$/src/page/BaseForm.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="e#3332#5362#0" />
           </folding>
@@ -609,7 +1763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3154">
+        <state relative-caret-position="1350">
           <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
         </state>
       </provider>
@@ -621,16 +1775,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="212">
           <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_EN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

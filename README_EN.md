@@ -1,28 +1,5 @@
 # manage-system #
-The web management system solution based on Vue2 and Element-UI。[live demo](http://blog.gdfengshuo.com/example/work/)
-
-## Donation
-![WeChat](http://blog.gdfengshuo.com/images/weixin.jpg)
-
-## Preface ##
-The scheme as a set of multi-function background frame templates, suitable for most of the WEB management system development. Convenient development fast simple good components based on Vue2 and Element-UI. Color separation of color style, support manual switch themes, and it is convenient to use a custom theme color.
-
-## Function ##
-- [x] Element-UI
-- [x] Login/Logout
-- [x] Dashboard
-- [x] Table
-- [x] Tabs
-- [x] From
-- [x] Chart :bar_chart:
-- [x] Editor
-- [x] Markdown
-- [x] Upload pictures by clipping or dragging
-- [x] Support manual switch themes :sparkles:
-- [x] List drag sort
-- [x] Permission
-- [x] 404 / 403
-
+The web management system solution based on Vue2 and Element-UI。
 
 ## Directory structure ##
 
