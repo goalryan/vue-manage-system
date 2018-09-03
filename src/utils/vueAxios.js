@@ -18,7 +18,7 @@ export default function plugin(Vue, axios, qs, v) {
     //配置请求头
     axios.defaults.headers.post['Content-Type'] = 'application/json';
     //配置接口地址
-    axios.defaults.baseURL = 'http://localhost/zhqc';
+    axios.defaults.baseURL = 'http://192.168.10.249/auth';
     axios.interceptors.request.use((config) => {
         // config.headers.common['Authorization'] = sessionStorage.getItem("token");
         // config.headers.common['EnterpriseId'] = sessionStorage.getItem("enterpriseId");
