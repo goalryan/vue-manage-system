@@ -13,7 +13,6 @@ import "babel-polyfill";
 Vue.use(ElementUI, { size: 'small' });
 Vue.use(VueAxios, Axios, Qs);
 Vue.use(VueQueryString, Qs);
-Vue.prototype.$axios = axios;
 
 //使用钩子函数对路由进行权限跳转
 router.beforeEach((to, from, next) => {
